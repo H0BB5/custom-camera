@@ -1,0 +1,1 @@
+var O,T;!function(O){O.DARK="dark",O.BRIGHT="bright",O.NORMAL="normal"}(O||(O={})),function(O){O.MATCHED="MATCHED",O.TOO_FAR="TOO FAR",O.TOO_CLOSE="TOO CLOSE",O.CANT_IDENTIFY="CANNOT IDENTIFY",O.FACE_IDENTIFIED="ONE FACE IDENTIFIED",O.TOO_MANY="TOO MANY FACES"}(T||(T={}));export{T as FaceMatchState,O as IlluminationState};

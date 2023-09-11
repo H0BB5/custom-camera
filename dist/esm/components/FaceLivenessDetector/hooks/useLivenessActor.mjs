@@ -1,0 +1,1 @@
+import{useActor as r}from"@xstate/react";import{useFaceLivenessDetector as e}from"../providers/FaceLivenessDetectorProvider.mjs";function t(){const{service:t}=e();return r(t)}export{t as useLivenessActor};

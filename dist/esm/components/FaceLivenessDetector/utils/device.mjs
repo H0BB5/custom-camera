@@ -1,0 +1,1 @@
+function n(){return/Android|iPhone|iPad/i.test(navigator.userAgent)||/Macintosh/i.test(navigator.userAgent)&&!!navigator.maxTouchPoints&&navigator.maxTouchPoints>1}function t(){return window.matchMedia("(orientation: landscape)")}export{t as getLandscapeMediaQuery,n as isMobileScreen};

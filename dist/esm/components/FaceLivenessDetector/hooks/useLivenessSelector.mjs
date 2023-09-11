@@ -1,0 +1,1 @@
+import{useSelector as r}from"@xstate/react";import{useFaceLivenessDetector as e}from"../providers/FaceLivenessDetectorProvider.mjs";function t(r){return r}function o(t){const{service:o}=e();return r(o,t)}export{t as createLivenessSelector,o as useLivenessSelector};
